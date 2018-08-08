@@ -1,0 +1,37 @@
+{
+  "tariffs" :[
+    {
+      "id" : 1,
+      "name" : "Безлім Соцмережі",
+      "provider" : "kyivstar",
+      "g4" : "no",
+      "price" : 75.00,
+      "billingPeriodName" : "4 недели",
+      "billingPeriodDays" : 28,
+      "internetMb" : 3000,
+      "url" : "https://kyivstar.ua/ru/mm/tariffs/prepaid/unlimtalks"
+    },
+    {
+      "id" : 2,
+      "name" : "SuperNet Start",
+      "provider" : "vodafone",
+      "g4" : "yes",
+      "price" : 65.00,
+      "billingPeriodName" : "4 недели",
+      "billingPeriodDays" : 28,
+      "internetMb" : 4000,
+      "url" : "https://www.vodafone.ua/ru/privatnim-klientam/rates/vodafone-supernet-start"
+    },
+    {
+      "id" : 3,
+      "name" : "ХАЙП",
+      "provider" : "lifecell",
+      "g4" : "yes",
+      "price" : 75.00,
+      "billingPeriodName" : "30 дней",
+      "billingPeriodDays" : 30,
+      "internetMb" : 10000,
+      "url" : "https://www.lifecell.ua/ru/mobilnaya-svyaz/tarify/hayp/"
+    }
+  ]
+}

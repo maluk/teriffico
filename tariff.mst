@@ -1,0 +1,76 @@
+                        <li class="py-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col border-right">
+                                            <div class="row">
+                                                <div class="col py-2">
+                                                    {{{ provider_logo }}}
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col py-2">
+                                                    <h5>{{ name }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col border-right">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col py-2">
+                                                        <h6>Интернет</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col py-2">
+                                                        {{ internet }}
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col py-2">
+                                                        <h6>Звонки / СМС</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col py-2">
+                                                        &#x221e; / 30 минут
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>  
+                                        <div class="col">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col py-2">
+                                                        <h6>Стоимость</h6></h6>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col py-2">
+                                                        {{ price }} грн за {{ billingPeriodName }}
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col py-2">
+                                                        <b>{{ price_per_month}} грн в месяц</b>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        &nbsp;
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="container border-top">&nbsp;</div>
+                                        </div>
+                                    </div>
+                                    <div class="row float-right">
+                                        <div class="col">
+                                            <a class="btn btn-primary" style="background-color: #337ab7; border-color: #337ab7;" href="{{ url }}" target="_blank" role="button">Подробнее >></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
